@@ -7,10 +7,15 @@
     "preview": "dotenvx run -- node .output/server/index.mjs"
   },
   "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.7",
     "nitropack": "latest"
   },
   "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c",
   "dependencies": {
-    "@dotenvx/dotenvx": "^1.32.0"
+    "@dotenvx/dotenvx": "^1.32.0",
+    "dayjs": "^1.11.13",
+    "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "zod": "^3.24.1"
   }
 }
