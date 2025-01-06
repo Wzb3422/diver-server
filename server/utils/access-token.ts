@@ -15,7 +15,6 @@ export const getAccessToken = async () => {
     if (accessToken && !isExpired()) {
         return accessToken
     }
-
     const url = 'https://api.weixin.qq.com/cgi-bin/token';
     const res = await fetch(`${url}?${qs.stringify({
         appid,
